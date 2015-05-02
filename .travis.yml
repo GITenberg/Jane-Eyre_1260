@@ -1,0 +1,27 @@
+language: ruby
+sudo: required
+before_install:
+- gem install asciidoctor tilt
+- sudo apt-get install xsltproc
+script:
+- git clone https://github.com/rdhyee/asciidoctor-htmlbook.git
+- asciidoctor -a toc -b xhtml5 -d book -T ./asciidoctor-htmlbook/htmlbook-autogen/
+  -d book Jane-Eyre.asciidoc -o Jane-Eyre.html
+- git clone https://github.com/sethwoodworth/HTMLBook
+- xsltproc -stringparam external.assets.list " " ./HTMLBook/htmlbook-xsl/epub.xsl
+  Jane-Eyre.html
+- cp ./HTMLBook/stylesheets/epub/epub.css OEBPS
+- cp cover.png OEBPS/cover.png
+- zip -rX Jane-Eyre.epub mimetype
+- zip -rX Jane-Eyre.epub OEBPS/ META-INF/
+branches:
+  only:
+  - master
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: Fu0+Y0G93tFQzq1aAUQYRQpzeZaMqY1uXogcnc0VuUdywgb7YULSsJupYL2KiURU25Y/RJP2ChHKFwFQdDFDOJQz9pQ6T1TL6KoK/bI7oRN0H+BusDVLux3lqlsQTmVBtOJ1jJJSVIKCMlNtykdnF1vxiODKemUOUYAIQGsOpdA=
+  file: Jane-Eyre.epub
+  on:
+    repo: sethwoodworth/Jane-Eyre_1260

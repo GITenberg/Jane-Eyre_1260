@@ -1,9 +1,33 @@
-= JANE EYRE, AN AUTOBIOGRAPHY
+= Jane Eyre, an Autobiography
 CHARLOTTE BRONTË
-
-ILLUSTRATED BY F. H. TOWNSEND
-
+v0.0.1
 :toc:
+
+
+[colophon]
+== Copyright
+
+This edition of _Jane Eyre_ is maintained, archived, and curated as part of
+the GITENBERG PROJECT.
+
+This work is in the public domain.
+
+If you find any issues with this work, please report them at
+https://github.com/GITenberg/Jane-Eyre_1260/issues
+
++
+
+Cover provided by Recovering the Classics
+
+Artist: Huy Ho, (C) 2013
+
+
+Made available under a Creative Commons Attribution-NonCommercial 4.0 license
+
+https://creativecommons.org/licenses/by-nc/4.0/
+
+
+
 == PREFACE
 
 
