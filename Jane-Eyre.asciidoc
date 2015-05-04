@@ -1,6 +1,6 @@
 = Jane Eyre, an Autobiography
-CHARLOTTE BRONTË
-v0.0.1
+Charlotte Brontë
+v0.0.2
 :toc:
 
 
