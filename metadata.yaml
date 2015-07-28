@@ -1,0 +1,46 @@
+_repo: Jane-Eyre--An-Autobiography_1260
+contributor:
+  illustrator:
+    agent_name: Townsend, F. H. (Frederick Henry)
+    aliases:
+    - Townsend, Frederick Henry
+    - Townsend, F.H.
+    birthdate: 1868
+    deathdate: 1920
+    gutenberg_agent_id: '9854'
+    url: http://www.gutenberg.org/2009/agents/9854
+creator:
+  author:
+    agent_name: "Bront\xEB, Charlotte"
+    aliases:
+    - "Charlotte Bront\xEB"
+    - Bell, Currer
+    - Bronte, Charlotte
+    birthdate: 1816
+    deathdate: 1855
+    gutenberg_agent_id: '408'
+    url: http://www.gutenberg.org/2009/agents/408
+    wikipedia: "http://en.wikipedia.org/wiki/Charlotte_Bront\xEB"
+gutenberg_issued: '1998-03-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '1260'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- '!lcc:PR'
+- '!lcsh:Fathers and daughters -- Fiction'
+- '!lcsh:Young women -- Fiction'
+- '!lcsh:Governesses -- Fiction'
+- '!lcsh:Orphans -- Fiction'
+- '!lcsh:Love stories'
+- '!lcsh:Bildungsromans'
+- '!lcsh:Charity-schools -- Fiction'
+- '!lcsh:England -- Fiction'
+- '!lcsh:Mentally ill women -- Fiction'
+- '!lcsh:Country homes -- Fiction'
+- '!lcsh:Married people -- Fiction'
+title: 'Jane Eyre: An Autobiography'
+url: http://www.gutenberg.org/ebooks/1260
