@@ -11,16 +11,16 @@ contributor:
     url: http://www.gutenberg.org/2009/agents/9854
 creator:
   author:
-    agent_name: "Bront\xEB, Charlotte"
+    agent_name: Brontë, Charlotte
     aliases:
-    - "Charlotte Bront\xEB"
+    - Charlotte Brontë
     - Bell, Currer
     - Bronte, Charlotte
     birthdate: 1816
     deathdate: 1855
     gutenberg_agent_id: '408'
     url: http://www.gutenberg.org/2009/agents/408
-    wikipedia: "http://en.wikipedia.org/wiki/Charlotte_Bront\xEB"
+    wikipedia: http://en.wikipedia.org/wiki/Charlotte_Brontë
 gutenberg_issued: '1998-03-01'
 gutenberg_type: Text
 identifiers:
