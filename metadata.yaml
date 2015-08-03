@@ -3,8 +3,8 @@ contributor:
   illustrator:
     agent_name: Townsend, F. H. (Frederick Henry)
     aliases:
-    - Townsend, Frederick Henry
     - Townsend, F.H.
+    - Townsend, Frederick Henry
     birthdate: 1868
     deathdate: 1920
     gutenberg_agent_id: '9854'
@@ -19,8 +19,8 @@ creator:
   author:
     agent_name: Brontë, Charlotte
     aliases:
-    - Charlotte Brontë
     - Bell, Currer
+    - Charlotte Brontë
     - Bronte, Charlotte
     birthdate: 1816
     deathdate: 1855
@@ -36,17 +36,17 @@ publisher: Project Gutenberg
 rights: Public domain in the USA.
 rights_url: http://creativecommons.org/about/pdm
 subjects:
-- '!lcc:PR'
-- '!lcsh:Fathers and daughters -- Fiction'
-- '!lcsh:Young women -- Fiction'
-- '!lcsh:Governesses -- Fiction'
-- '!lcsh:Orphans -- Fiction'
-- '!lcsh:Love stories'
-- '!lcsh:Bildungsromans'
-- '!lcsh:Charity-schools -- Fiction'
-- '!lcsh:England -- Fiction'
-- '!lcsh:Mentally ill women -- Fiction'
-- '!lcsh:Country homes -- Fiction'
-- '!lcsh:Married people -- Fiction'
+- '!lcsh: Love stories'
+- '!lcc: PR'
+- '!lcsh: Bildungsromans'
+- '!lcsh: Fathers and daughters -- Fiction'
+- '!lcsh: Governesses -- Fiction'
+- '!lcsh: Country homes -- Fiction'
+- '!lcsh: Married people -- Fiction'
+- '!lcsh: Orphans -- Fiction'
+- '!lcsh: England -- Fiction'
+- '!lcsh: Charity-schools -- Fiction'
+- '!lcsh: Mentally ill women -- Fiction'
+- '!lcsh: Young women -- Fiction'
 title: 'Jane Eyre: An Autobiography'
 url: http://www.gutenberg.org/ebooks/1260
