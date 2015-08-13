@@ -7,14 +7,15 @@ script:
 - asciidoctor -a toc,version=$VERSION -b xhtml5 -T ./asciidoctor-htmlbook/htmlbook-autogen/
   -d book book.asciidoc -o book.html
 - git clone https://github.com/gitenberg-dev/HTMLBook
-- xsltproc -stringparam external.assets.list " " ./HTMLBook/htmlbook-xsl/epub.xsl book.html
+- xsltproc -stringparam external.assets.list " " ./HTMLBook/htmlbook-xsl/epub.xsl
+  book.html
 - cp ./HTMLBook/stylesheets/epub/epub.css OEBPS
 - cp cover.jpg OEBPS/cover.jpg
 - if test -d "./images"; then mv ./images ./OEBPS/ ;fi
 - zip -rX book.epub mimetype
 - zip -rX book.epub OEBPS/ META-INF/
-- if test -d "OEBPS/images/"; then zip -rX book.epub OEBPS/images/ ;fi 
-- mv book.epub Jane-Eyre:-An-Autobiography.epub
+- if test -d "OEBPS/images/"; then zip -rX book.epub OEBPS/images/ ;fi
+- mv book.epub Jane-Eyre-An-Autobiography.epub
 branches:
   only:
   - master
@@ -22,9 +23,9 @@ deploy:
   skip_cleanup: true
   provider: releases
   api_key:
-    secure: nqScvm7FQZvswsJTA10DS8TgYUdrP/dbp2jAw48YsH1sFmhJUgSYDWEJGabbIJXzICM8geGXtPo2NFzCytxpFpXRJ6J7LcqR12Vlb5k88IdNYhqKLBayMgURWgFJRxcYoHmBLG9M6LcSoQ7AIGgnrqd36HW//V3jX/74n6oNhi73WLQURjJWzEEojI8+hf4k4i3xPvk/ZOwjzfHOHYqC97QPf/fjGjBMQVgjz6n9vhGZyPi+RBb4YF11XRILv0THhZRw4ezNvrRhajbh3IT16orhM5qvJ31HYtaZPh0U3lPk1hNh4nJOXN/muCi/le52X382NXQbR7ymtBl/UnYxkd5QesGCYCHd67V1FXq3De8eEEOeIfDX6UOeez+1aChZeZEDSu0bJEFUy6gtS6OUx6ZcNTlcJ92HidDkAXFU4jf7tf7mdJ6CzpEOi0y92Mth4T73zByIUY+HSI3j/AqBR5zs84nW5H/dp39IqIpbCn38oSy4pG2T+J+UDije0QGWtz8307S705bXwTAZv0hkql0rOc1RvnKYfwxX0q1BbWg9FeZaJazPdaL7w+khrg79EYHtm8Qf21oPCLiP3tgQ6ctRPhH8zszQFjwhD4YIwQhAuDbUMaWJYeCd+pd0t0vXtiOnqnI+OxZarc934c/GevqE3ggHzeWhHCpv0LAJKp0=
-  file: Jane-Eyre:-An-Autobiography.epub
-  "on":
+    secure: BN8EmwDzpsaYlm24o3aFGPax51ceSvGF8KyluHlVNGZkAdP2r/xKQo4R/d4gEZuD4sCbqDmbPaa3cNktF28efLOcO09EBpY5B9/HtQybDhLZVXwx6e8QEYwkzNdTFoz1Ul2PkFwHeX1h9qiOlAyIOcYOj7666uAgcLl9KTh5wrAE0f0CboVFe6aWxf3vopwZdWaPweYv5ZR9Hfu9XDkinrsabjg+Nzc6sBRg0V9LqErJyHJuif7wI1irzDbVjIr8oVq4NrfyYlvt3afJw2doUXcAbA+DS5ORUiz+wuikqAx2OUTTKw8zu38kGB6OjPrV1fa+gcpE6V1TysT8VWeWn3Cx5RsPc4SUQJkN/d+mL/8b8j0uo49LfZvOwzAN/JVOwCTiZvvWyVnVbuPxrBWN++lVZ6y6AzmoeiJwE/5a7sHC3GFChnfdyb1LFeAa69PPo+1lTfnjUiTSuCG6DiZFqhKO481YnpX3JzPO8i/Sqjy2UlUhDAse1owuALRt+Y2ShYWzLy8Aw52Z+TagLowKsBZq45ooYFb9VUb6hKpbXjYaUeeAcxI5eIBjR9dfTE9lnchp7yPbxzDRFmQdPNst2hxvH+dl0YYfOPqc9luoeFmg815KH+ZVToXH42dx5goLtBuPXl2kSLwK/EdlmVHycSdA8Z/XWD95S3L+pHsE2HE=
+  file: Jane-Eyre-An-Autobiography.epub
+  on:
     repo: GITenberg/Jane-Eyre_1260
 addons:
   apt:
