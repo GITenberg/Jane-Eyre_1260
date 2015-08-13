@@ -25,7 +25,7 @@ deploy:
     secure: nqScvm7FQZvswsJTA10DS8TgYUdrP/dbp2jAw48YsH1sFmhJUgSYDWEJGabbIJXzICM8geGXtPo2NFzCytxpFpXRJ6J7LcqR12Vlb5k88IdNYhqKLBayMgURWgFJRxcYoHmBLG9M6LcSoQ7AIGgnrqd36HW//V3jX/74n6oNhi73WLQURjJWzEEojI8+hf4k4i3xPvk/ZOwjzfHOHYqC97QPf/fjGjBMQVgjz6n9vhGZyPi+RBb4YF11XRILv0THhZRw4ezNvrRhajbh3IT16orhM5qvJ31HYtaZPh0U3lPk1hNh4nJOXN/muCi/le52X382NXQbR7ymtBl/UnYxkd5QesGCYCHd67V1FXq3De8eEEOeIfDX6UOeez+1aChZeZEDSu0bJEFUy6gtS6OUx6ZcNTlcJ92HidDkAXFU4jf7tf7mdJ6CzpEOi0y92Mth4T73zByIUY+HSI3j/AqBR5zs84nW5H/dp39IqIpbCn38oSy4pG2T+J+UDije0QGWtz8307S705bXwTAZv0hkql0rOc1RvnKYfwxX0q1BbWg9FeZaJazPdaL7w+khrg79EYHtm8Qf21oPCLiP3tgQ6ctRPhH8zszQFjwhD4YIwQhAuDbUMaWJYeCd+pd0t0vXtiOnqnI+OxZarc934c/GevqE3ggHzeWhHCpv0LAJKp0=
   file: Jane-Eyre:-An-Autobiography.epub
   "on":
-    repo: GITenberg/Jane-Eyre--An-Autobiography_1260
+    repo: GITenberg/Jane-Eyre_1260
 addons:
   apt:
     packages:
