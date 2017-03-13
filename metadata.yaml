@@ -1,5 +1,5 @@
 _repo: Jane-Eyre_1260
-_version: 0.2.1
+_version: 0.2.2
 contributor:
   illustrator:
     agent_name: Townsend, F. H. (Frederick Henry)
@@ -28,6 +28,8 @@ creator:
     gutenberg_agent_id: '408'
     url: http://www.gutenberg.org/2009/agents/408
     wikipedia: http://en.wikipedia.org/wiki/Charlotte_Brontë
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/1260#Jane-Eyre
 gutenberg_issued: '1998-03-01'
 gutenberg_type: Text
 identifiers:
